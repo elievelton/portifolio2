@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.rotate-text {
+    transform: rotate(-45deg);
+}
+
+@keyframes rotateOvershoot {
+    0% { transform: rotate(0deg); }
+    70% { transform: rotate(190deg); }  /* Rotação vai um pouco além dos 180 graus */
+    100% { transform: rotate(180deg); }
+}
