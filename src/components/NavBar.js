@@ -31,7 +31,7 @@ const NavBar = () => {
           <CustomLink href="/projects" title="projects" className="mx-4" />
           <CustomLink href="/articles" title="articles" className="ml-4" />
         </nav>
-
+        {/*Social Icons */}
         <nav className=" flex items-center justify-center flex-wrap">
           <motion.a
             href="https://twitter.com"
@@ -39,7 +39,9 @@ const NavBar = () => {
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
           >
-            <GithubIcon className="w-6 mr-2" />
+            <div className="w-6 mr-3">
+            <GithubIcon  />
+            </div>
           </motion.a>
           <motion.a
             href="https://twitter.com"
@@ -47,7 +49,9 @@ const NavBar = () => {
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
           >
-            <TwitterIcon className="w-6 mx-2" />
+            <div className="w-6 mx-3">
+            <TwitterIcon />
+            </div>
           </motion.a>
           <motion.a
             href="https://twitter.com"
@@ -55,7 +59,9 @@ const NavBar = () => {
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
           >
-            <PinterestIcon className="w-6 mx-2" />
+            <div className="w-6 mx-3">
+            <PinterestIcon  />
+            </div>
           </motion.a>
           <motion.a
             href="https://twitter.com"
@@ -63,7 +69,9 @@ const NavBar = () => {
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
           >
-            <LinkedInIcon className="w-5 ml-2" />
+            <div className="w-6 ml-3">
+            <LinkedInIcon  />
+            </div>
           </motion.a>
         </nav>
         <div className="absolute left-[50%] top-2 tranlate-x-[-5-%]">
