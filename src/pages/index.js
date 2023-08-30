@@ -20,7 +20,7 @@ export default function Home() {
               </div>
               <div className='w-1/2'>
                
-                <AnimatedText text="Turning Vision Into Reality With Code And Design."/>
+                <AnimatedText text="Turning Vision Into Reality With Code And Design." className="!text-3xl"/>
                 <p>
                   As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
                   Explore my latest projects and articles, showcasing my expertise in React.js and web development.
