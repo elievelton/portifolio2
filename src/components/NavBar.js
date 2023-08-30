@@ -10,13 +10,15 @@ const CustomLink = ({ href, title, className = "" }) => {
   return (
     <Link href={href} className={`${className} relative group`}>
       {title}
+      
       <span
-        className={`hover:animate-rotateOvershoot  h-[2px] inline-block  bg-black absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease-in-out duration-500 ${
-          router.asPath === href ? "w-full" : "W-0"
+        className={` h-[1px] inline-block  bg-black absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-500 ${
+          router.asPath === href ? "w-full" : "w-0"
         } `}
       >
         &nbsp;
       </span>
+      
     </Link>
   );
 };
