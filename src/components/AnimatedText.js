@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const quote = {
   initial:{
-    opacity:1,
+    opacity:12,
   },
   animate:{
     opacity:1,
